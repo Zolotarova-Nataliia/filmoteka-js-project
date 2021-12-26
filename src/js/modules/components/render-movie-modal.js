@@ -4,7 +4,7 @@ import { modalMarkup } from '../templates/modal-markup';
 import { trailerMarkup } from '../templates/trailer-markup';
 import { queueStorage, watchedStorage } from './library-storage';
 import { movieService } from './movie-service';
-import { header } from './page-switch';
+import { header } from './header';
 import Loader from '../../vendors/_icon8';
 let spinner = new Loader();
 
